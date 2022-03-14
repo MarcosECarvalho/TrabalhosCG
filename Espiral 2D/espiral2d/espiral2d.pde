@@ -17,7 +17,7 @@ beginShape();
   for(int v = 0; v < nv; v++){
     for(int p = 0; p < pv; p++){
       theta = (TWO_PI*v) + (p * a);
-      r = v + theta * 4; //r = a + bθ equação de raio que incrimenta a cada interação, 5 foi arbitrário para incrementar a diferença de raio
+      r = v + theta * 4; //r = a + bθ equação de raio que incrimenta a cada interação, 4 foi arbitrário para incrementar a diferença de raio
       vertex(r*cos(theta), r*sin(theta));
     }
   }
